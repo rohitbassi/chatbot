@@ -1,0 +1,20 @@
+{
+  
+  "PGUSER": "bassi",
+  "PGDATABASE": "messages",
+  "PGPASSWORD": "123456",
+   "PGHOST": "localhost",
+  "PGPORT": 5432,
+  "MAX_PG_CONNECTION": 10,
+  "IDLE_TIMEOUT_MILLIS": 30000,
+  "APP_HOST": "localhost",
+  "APP_PORT": 443,
+  "APP_TOKEN": "37LvDSm4XvjYOh9Y",
+  "TOKEN_EXPIRY": 86400,
+  "OTP_WINDOW":10,
+  "LOG_CONFIG": {
+    "MAX_LOG_SIZE": 20480,
+    "LOG_BACKUPS": 5,
+    "LOG_LEVEL": "DEBUG"
+  }
+}
