@@ -1,7 +1,0 @@
-{
-"message":{
-	"addmessage":"INSERT INTO messages(\"content\",\"created\") VALUES($1,$2) RETURNING \"id\",\"content\" ",
-	"getmessage":"SELECT * FROM MESSAGES",
-	"deletemessage": "DELETE FROM messages WHERE \"id\"=$1 RETURNING \"id\""
- }
-}
